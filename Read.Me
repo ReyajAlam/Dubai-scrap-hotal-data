@@ -1,0 +1,40 @@
+# Hotel Search API Integration (PHP)
+
+## Overview
+
+This project is a clean and professional PHP integration with the Booking.com Hotels API (via RapidAPI). It fetches hotel data for a given destination and date range, applies pricing logic, and prepares frontend-ready output.
+
+---
+
+## Key Highlights
+
+* Clean, readable PHP code with proper naming and indentation
+* Error handling for API failures and empty responses
+* Safe price calculations with 2-decimal formatting
+* 15% business markup applied to total and per-night prices
+* Debug-friendly output using `print_r()` during development
+
+---
+
+## Tech Stack
+
+* PHP (Core)
+* Booking.com API (RapidAPI)
+* cURL
+
+---
+
+## Professional Practices Used
+
+* Graceful handling of cURL and API errors
+* Type-safe price calculations using floats
+* Clear separation of configuration, logic, and output
+* Credentials kept configurable (inlined only for testing)
+
+---
+
+## Usage
+
+* Development: View full data using `print_r()`
+* Production: Easily switch to `json_encode()` output
+
